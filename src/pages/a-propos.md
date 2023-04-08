@@ -25,8 +25,8 @@ J'occupe le poste de conseiller en médiation technologique à la Bibliothèque 
 - J'utilise essentiellement [VS Code](https://code.visualstudio.com/) pour le développement. 
 
 ## Accessibilité
-Je travaille activement à rendre le site le plus accessible possible. Si vous trouvez une difficulté lors de la navigation sur ce site, n'hésitez pas à m'en faire par. Entre temps, vous pouvez consultez le rapport [PageSpeed Insights](https://pagespeed.web.dev/analysis/https-echouchane-com/jromy90t76?form_factor=desktop).
+Je travaille activement à rendre le site le plus accessible possible. Si vous trouvez une difficulté lors de la navigation sur ce site, n'hésitez pas à m'en faire part. Entre temps, vous pouvez consultez le rapport [PageSpeed Insights](https://pagespeed.web.dev/analysis/https-echouchane-com/jromy90t76?form_factor=desktop).
 
 ## Contact
-Vous pouvez intéragir avec moi via les réseaux sociaux (les liens en bas de page)
+Vous pouvez échanger avec moi via les réseaux sociaux (les liens en bas de page)
 ou par [courriel](mailto:ec@echouchane.com).
