@@ -39,4 +39,6 @@ export default defineConfig({
       exclude: ["@resvg/resvg-js"],
     },
   },
+  site: 'https://echouchane.com',
+
 });

@@ -6,6 +6,8 @@ import Main from "@layouts/Main.astro";
 import Header from "@components/Header.astro";
 import Footer from "@components/Footer.astro";
 import Search from "@components/Search";
+import Tag from "@components/Tag.astro";
+import getUniqueTags from "@utils/getUniqueTags";
 
 // Retrieve all articles
 const posts = await getCollection("blog", ({ data }) => !data.draft);
@@ -16,12 +18,23 @@ const searchList = posts.map(({ data }) => ({
   description: data.description,
   data,
 }));
+
+let tags = getUniqueTags(posts);
 ---
 
-<Layout title={`Search | ${SITE.title}`}>
-  <Header activeNav="search" />
-  <Main pageTitle="Search" pageDesc="Search any article ...">
+<Layout title={`Recherche | ${SITE.title}`}>
+  <Header activeNav="recherche" />
+  <Main pageTitle="Recherche">
+    <h2>Par étiquettes</h2>
+    {tags.map(tag => <Tag name={tag} size="lg" />)}
+    <br> <br>
+    <h2>Par mots-clés</h2>
     <Search client:load searchList={searchList} />
+
+
+
   </Main>
+  
+
   <Footer />
 </Layout>
