@@ -1,15 +1,11 @@
-echouchane.com / jardin numérique d'Emir
+echouchane.com / Jardin numérique d'Emir
 
 -------------------------------------
 
 Auteur : Emir Chouchane
 Site: echouchane.com
 Twitter: @emir
-Courriel : ec@echouchane.com                 
+Courriel : emir@echouchane.com                 
 Emplacement: Montréal, Québec, Canada
 
 -------------------------------------
-
-SSG : Astro  
-Logiciel utilisé pour le développement : vscode
-Hébergement : Github Pages
