@@ -8,7 +8,7 @@ Je partage mes réflexions, mes découvertes et mes projets liés aux dernières
 
 C'est aussi mon terrain de jeu pour essayer des choses en lien avec le [Jamstack](https://jamstack.org/) et l'accessibilité, donc si le site est des fois instable, c'est parce que je bricole derrière.
 
-Je tiens à préciser que mes propos n'engagent que moi et que je ne saurais être tenu responsable des idées farfelues que je pourrais émettre sous l'emprise de la caféine.
+Soyons clairs, mes propos n'engagent que moi. J'ai bien conscience que certains d'entre vous pourraient être choqués, voire offensés, par mes opinions tranchées sur la supériorité du café noir par rapport au thé. Mais je tiens à rassurer tout le monde, je suis tout à fait prêt à discuter de ce sujet autour d'un café, sans que cela n'entraîne une quelconque guerre des boissons chaudes.
 
 ## Maintenant
 J'occupe le poste de conseiller en médiation technologique à la Bibliothèque des sciences de l'Université de Montréal. Je m'occupe principalement des Espaces de création numérique et de développer de nouveaux services technologiques pour la communauté UdeM.
