@@ -6,7 +6,7 @@ postSlug: jardin-numerique
 featured: true
 draft: false
 tags:
-  - site
+  - jardin numérique
 ogImage: ""
 description: C'est quoi un jardin numérique?
 ---
