@@ -4,7 +4,7 @@ title: "À propos"
 ---
 
 Mon nom est Emir Chouchane. Bienvenue dans mon jardin numérique. 
-Je partage mes réflexions, mes découvertes et mes projets liés aux dernières tendances et innovations technologiques. J'aborde également les enjeux éthiques et culturels liés à l'évolution de la technologie. Cela peut prendre la forme de notes brèves ou plus élaborés.
+Je partage mes réflexions, mes découvertes et mes projets liés aux dernières tendances et innovations technologiques. J'aborde également les enjeux éthiques et culturels liés à l'évolution de la technologie. Cela peut prendre la forme de notes brèves ou plus élaborées.
 
 C'est aussi mon terrain de jeu pour essayer des choses en lien avec le [Jamstack](https://jamstack.org/) et l'accessibilité, donc si le site est des fois instable, c'est parce que je bricole derrière.
 
@@ -33,5 +33,5 @@ Sauf exception, les contenus publiés sur ce site sont sous [licence CC-BY](http
 La licence CC-BY est un peu comme un buffet à volonté pour les contenus publiés sur le web. Vous pouvez vous servir autant que vous le souhaitez, tant que vous mentionnez la source et que vous ne prétendez pas avoir créé vous-même ces contenus. C'est un peu comme si vous pouviez manger toutes les crevettes, les sushis et les petits fours que vous voulez, mais que vous deviez laisser un petit panneau sur votre table indiquant où vous avez trouvé ces délicieux mets.
 
 ## Contact
-Vous pouvez échanger avec moi via les réseaux sociaux (les liens en bas de page)
+Vous pouvez échanger avec moi via les réseaux sociaux (les liens en bas de cette page)
 ou par [courriel](mailto:emir@echouchane.com).
