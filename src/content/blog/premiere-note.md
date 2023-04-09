@@ -1,7 +1,7 @@
 ---
 author: Emir Chouchane
 pubDatetime: 2023-04-08
-title: Première note
+title: '#000 - Première note'
 postSlug: premiere-note
 featured: true
 draft: false
