@@ -63,6 +63,9 @@ const socialImageURL = new URL(
       rel="stylesheet"
     />
 
+    <!-- Google tag (gtag.js) -->
+   
+
     {
       // If PUBLIC_GOOGLE_SITE_VERIFICATION is set in the environment variable,
       // include google-site-verification tag in the heading
@@ -76,6 +79,15 @@ const socialImageURL = new URL(
     }
 
     <script is:inline src="/toggle-theme.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TX2DEJTC69"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-TX2DEJTC69');
+    </script>
+    
   </head>
   <body>
     <slot />
