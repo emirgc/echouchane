@@ -34,4 +34,4 @@ La licence CC-BY est un peu comme un buffet à volonté pour les contenus publi�
 
 ## Contact
 Vous pouvez échanger avec moi via les réseaux sociaux (les liens en bas de page)
-ou par [courriel](mailto:ec@echouchane.com).
+ou par [courriel](mailto:emir@echouchane.com).
