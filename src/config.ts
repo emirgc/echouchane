@@ -3,7 +3,7 @@ import type { Site, SocialObjects } from "./types";
 export const SITE: Site = {
   website: "https://echouchane.com",
   author: "Emir Chouchane",
-  desc: "Passionatus technologiae et artifex multiplex. Mon carnet de notes.",
+  desc: "Passionatus technologiae et artifex multiplex.",
   title: "Emir Chouchane",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
