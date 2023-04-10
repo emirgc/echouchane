@@ -1,8 +1,8 @@
-# build output
+# ignorer l'output du build
 dist/
 .output/
 
-# dependencies
+# dépendances
 node_modules/
 
 # logs
@@ -12,15 +12,16 @@ yarn-error.log*
 pnpm-debug.log*
 
 
-# environment variables
+# environnement
 .env
 .env.production
 
-# macOS-specific files
+
+# macOS
 .DS_Store
 
-# ignore .astro directory
+# ignorer dossier .astro 
 .astro
 
-# ignore Jampack cache files
-.jampack/
+# Autres
+.vscode/
