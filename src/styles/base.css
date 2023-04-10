@@ -11,6 +11,7 @@
     --color-card: 230, 230, 230;
     --color-card-muted: 205, 205, 205;
     --color-border: 236, 233, 233;
+    
   }
   html[data-theme="dark"] {
     --color-fill: 47, 55, 65;
@@ -31,6 +32,7 @@
   body {
     @apply flex min-h-screen flex-col bg-skin-fill font-mono text-skin-base 
     selection:bg-skin-accent selection:bg-opacity-70 selection:text-skin-inverted;
+    transition: 0.3s ease;
   }
   section,
   footer {
