@@ -23,102 +23,31 @@ const { fontRegular, fontBold } = await fetchFonts();
 
 const ogImage = (text: string) => {
   return (
-    <div
-      style={{
-        background: "#fefbfb",
-        width: "100%",
-        height: "100%",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-      }}
-    >
-      <div
-        style={{
-          position: "absolute",
-          top: "-1px",
-          right: "-1px",
-          border: "4px solid #000",
-          background: "#ecebeb",
-          opacity: "0.9",
-          borderRadius: "4px",
-          display: "flex",
-          justifyContent: "center",
-          margin: "2.5rem",
-          width: "88%",
-          height: "80%",
-        }}
-      />
-
-      <div
-        style={{
-          border: "4px solid #000",
-          background: "#fefbfb",
-          borderRadius: "4px",
-          display: "flex",
-          justifyContent: "center",
-          margin: "2rem",
-          width: "88%",
-          height: "80%",
-        }}
-      >
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "space-between",
-            margin: "20px",
-            width: "90%",
-            height: "90%",
-          }}
-        >
-          <p
-            style={{
-              fontSize: 72,
-              fontWeight: "bold",
-              maxHeight: "84%",
-              overflow: "hidden",
-            }}
-          >
-            {text}
-          </p>
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "space-between",
-              width: "100%",
-              marginBottom: "8px",
-              fontSize: 28,
-            }}
-          >
-            <span>
-              by{" "}
-              <span
-                style={{
-                  color: "transparent",
-                }}
-              >
-                "
-              </span>
-              <span style={{ overflow: "hidden", fontWeight: "bold" }}>
-                {SITE.author}
-              </span>
-            </span>
-
-            <span style={{ overflow: "hidden", fontWeight: "bold" }}>
-              {SITE.title}
-            </span>
-          </div>
-        </div>
-      </div>
-    </div>
+<div
+  style={{
+    height: '100%',
+    width: '100%',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: '#fbfefb',
+    fontSize: 32,
+    fontWeight: 600,
+  }}
+>
+    <svg width="100pt" height="100pt" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <path d="m50 12.5c0-3.4531 2.7969-6.25 6.25-6.25h37.5c3.4531 0 6.25 2.7969 6.25 6.25s-2.7969 6.25-6.25 6.25h-37.5c-3.4531 0-6.25-2.7969-6.25-6.25zm43.75 18.75h-37.5c-3.4531 0-6.25 2.7969-6.25 6.25s2.7969 6.25 6.25 6.25h37.5c3.4531 0 6.25-2.7969 6.25-6.25s-2.7969-6.25-6.25-6.25zm-87.5 12.5h25c3.4531 0 6.25-2.8008 6.25-6.25v-25c0-3.4492-2.7969-6.25-6.25-6.25h-25c-3.4531 0-6.25 2.8008-6.25 6.25v25c0 3.4492 2.7969 6.25 6.25 6.25zm37.5 37.5h-37.5c-3.4531 0-6.25 2.7969-6.25 6.25s2.7969 6.25 6.25 6.25h37.5c3.4531 0 6.25-2.7969 6.25-6.25s-2.7969-6.25-6.25-6.25zm0-25h-37.5c-3.4531 0-6.25 2.7969-6.25 6.25s2.7969 6.25 6.25 6.25h37.5c3.4531 0 6.25-2.7969 6.25-6.25s-2.7969-6.25-6.25-6.25zm50 0h-25c-3.4531 0-6.25 2.8008-6.25 6.25v25c0 3.4531 2.7969 6.25 6.25 6.25h25c3.4531 0 6.25-2.7969 6.25-6.25v-25c0-3.4492-2.7969-6.25-6.25-6.25z"/>
+    </svg>
+    <div style={{ marginTop: 40 }}>{text}</div>
+</div>
   );
 };
 
 const options: SatoriOptions = {
   width: 1200,
   height: 630,
-  embedFont: false,
+  embedFont: true,
   fonts: [
     {
       name: "IBM Plex Mono",

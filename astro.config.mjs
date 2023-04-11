@@ -19,7 +19,9 @@ export default defineConfig({
     }),
     react(),
     sitemap(),
+
   ],
+  
   markdown: {
     remarkPlugins: [
       remarkToc,
@@ -41,6 +43,5 @@ export default defineConfig({
       exclude: ["@resvg/resvg-js"],
     },
   },
-  site: 'https://echouchane.com',
 
 });

@@ -5,7 +5,7 @@ export const SITE: Site = {
   author: "Emir Chouchane",
   desc: "Passionatus technologiae et artifex multiplex.",
   title: "Emir Chouchane",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "",
   lightAndDarkMode: true,
   postPerPage: 8,
 };

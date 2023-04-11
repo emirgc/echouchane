@@ -35,13 +35,6 @@ const { activeNav } = Astro.props;
       </a>
       <nav id="nav-menu">
         <div class="mobile-menu">
-          <!-- {
-            activeNav === "note" && (
-              <div class="h-12 w-12 sm:hidden">
-                <Progress />
-              </div>
-            )
-          } -->
           <button
             class="hamburger-menu focus-outline"
             aria-label="Open Menu"
@@ -108,15 +101,6 @@ const { activeNav } = Astro.props;
             }
             
           </li>
-          <!-- {
-            activeNav === "note" && (
-              <li class="hidden sm:block">
-                <div class="h-12 w-12">
-                  <Progress />
-                </div>
-              </li>
-            )
-          } -->
         </ul>
       </nav>
     </div>
@@ -175,7 +159,7 @@ const { activeNav } = Astro.props;
 
   nav ul li:nth-child(4),
   nav ul li:nth-child(5) {
-    @apply col-span-1;
+    @apply col-span-2;
   }
 
   nav a.active {
@@ -195,7 +179,7 @@ const { activeNav } = Astro.props;
   }
 
   #theme-btn {
-    @apply p-3 sm:p-1;
+    @apply p-4 sm:p-1;
   }
 
   #theme-btn svg {
