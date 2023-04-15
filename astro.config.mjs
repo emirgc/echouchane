@@ -5,6 +5,8 @@ import remarkToc from "remark-toc";
 import remarkCollapse from "remark-collapse";
 import sitemap from "@astrojs/sitemap";
 import { SITE } from "./src/config";
+import rehypeExternalLinks from 'rehype-external-links';
+
 
 
 
@@ -19,9 +21,8 @@ export default defineConfig({
     }),
     react(),
     sitemap(),
-
   ],
-  
+
   markdown: {
     remarkPlugins: [
       remarkToc,
@@ -36,12 +37,22 @@ export default defineConfig({
       theme: "one-dark-pro",
       wrap: true,
     },
+    rehypePlugins: [
+      [
+        rehypeExternalLinks,
+        {
+          content: { type: 'text', value: ' 🔗' }
+        }
+      ],
+    ],
     extendDefaultPlugins: true,
   },
   vite: {
     optimizeDeps: {
       exclude: ["@resvg/resvg-js"],
     },
+    
   },
+  
 
 });

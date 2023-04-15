@@ -21,4 +21,4 @@ Ce que j'aime dans ce style, c'est l'absence de contraintes, tant techniques que
 >
 >Capstone, A tablet for thinking, https://www.inkandswitch.com/capstone/
 
-Ne trouvez-vous pas que cela fait penser aux [Codex de Da Vinci](codex-atlanticus.it)?
+Ne trouvez-vous pas que cela fait penser aux [Codex de Da Vinci](https://codex-atlanticus.it)?
