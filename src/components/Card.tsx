@@ -11,8 +11,9 @@ export default function Card({ href, frontmatter, secHeading = true }: Props) {
   const { title, pubDatetime, description } = frontmatter;
   return (
     <li className="my-2">
-      <a href={href} className="inline-block text-lg font-medium text-skin-accent decoration-dashed underline-offset-4 focus-visible:no-underline focus-visible:underline-offset-0"> 
-        <div className="flex items-center">
+      <div className="flex items-center gap-10">
+        <Datetime datetime={pubDatetime} className="flex flex-col sm:flex-row" />
+        <a href={href} className="inline-block text-lg font-medium text-skin-accent decoration-dashed underline-offset-4 focus-visible:no-underline focus-visible:underline-offset-0">
           {secHeading ? (
             <h2 className="text-lg font-medium decoration-dashed hover:underline flex">
               {title}
@@ -22,9 +23,8 @@ export default function Card({ href, frontmatter, secHeading = true }: Props) {
               {title}
             </h3>
           )}
-        </div>
-      </a>
-          <Datetime datetime={pubDatetime} className="ml-2" />
+        </a>
+      </div>
       {/* <p>{description}</p> */}
     </li>
   );
