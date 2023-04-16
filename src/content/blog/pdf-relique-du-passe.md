@@ -1,16 +1,15 @@
 ---
 author: Emir Chouchane
-pubDatetime: 2023-04-15
-title: "002 - PDF, relique du passé?"
-postSlug: pdf
+pubDatetime: 2023-04-16
+title: 002 - PDF, relique du passé
+postSlug: pdf-relique-du-passe
 featured: true
 draft: false
 tags:
   - KillthePDF
 ogImage: ""
-description: ""
+description: "Imaginez un monde où les cassettes VHS sont toujours la norme, où les téléphones portables sont aussi gros que des briques et où les disquettes sont encore largement utilisées. nous avons laissé ces antiquités technologiques derrière nous, mais il y a une relique qui persiste encore dans notre monde numérique : le format PDF."
 ---
-
 
 Imaginez un monde où les cassettes VHS sont toujours la norme, où les téléphones portables sont aussi gros que des briques et où les disquettes sont encore largement utilisées. nous avons laissé ces antiquités technologiques derrière nous, mais il y a une relique qui persiste encore dans notre monde numérique : le format PDF.
 
