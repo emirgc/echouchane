@@ -17,7 +17,10 @@ Imaginez un monde où les cassettes VHS sont toujours la norme, où les téléph
 Alerte Spoiler : il n'est pas mon meilleur ami. Bien qu'il ait ses avantages, il présente de nombreux inconvénients lorsqu'il s'agit de partager du contenu numérique. Il est donc temps de tourner la page et d'adopter des alternatives plus modernes et performantes.
 
 ## L'accessibilité, ou plutôt l'inaccessibilité
-L'un des principaux problèmes du format PDF est son manque d'accessibilité pour les personnes ayant des besoins particuliers, notamment celles qui utilisent des lecteurs d'écran pour accéder au contenu en ligne. Les PDF ne sont souvent pas structurés de manière à faciliter leur lecture. Les images et les graphiques peuvent ne pas comporter de descriptions alternatives, et le texte peut être disposé de manière désordonnée, rendant la lecture difficile, voire impossible. Aussi, ils ne prennent généralement pas en charge les options de personnalisation, telles que le réglage de la taille de la police ou le choix des couleurs de contraste, qui peuvent être essentielles pour les personnes ayant des problèmes de vision.
+L'un des principaux problèmes du format PDF est son manque d'accessibilité pour les personnes ayant des besoins particuliers, notamment celles qui utilisent des lecteurs d'écran pour accéder au contenu en ligne : 
+- Les PDF ne sont souvent pas structurés de manière à faciliter leur lecture, le texte peut être disposé de manière désordonnée, rendant la lecture difficile.
+- Les images et les graphiques peuvent ne pas comporter de descriptions alternatives
+- Le format ne prends pas en charge les options de personnalisation, telles que le réglage de la taille de la police ou le choix des couleurs de contraste.
 
 ## La mise en forme, l'ennemi juré
 Si vous pensez que modifier la mise en forme d'un document PDF est aussi simple que de changer la couleur d'un texte dans Word, détrompez-vous!
