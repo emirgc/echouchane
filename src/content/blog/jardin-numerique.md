@@ -1,7 +1,7 @@
 ---
 author: Emir Chouchane
 pubDatetime: 2023-04-09
-title: '#001 - Jardin numérique'
+title: 001 - Jardin numérique
 postSlug: jardin-numerique
 featured: true
 draft: false

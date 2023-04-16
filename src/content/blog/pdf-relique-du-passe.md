@@ -1,7 +1,7 @@
 ---
 author: Emir Chouchane
 pubDatetime: 2023-04-15
-title: '#002 - PDF : relique du passé?'
+title: 002 - PDF, relique du passé?
 postSlug: pdf
 featured: true
 draft: false
