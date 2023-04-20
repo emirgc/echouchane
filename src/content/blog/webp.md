@@ -38,7 +38,7 @@ description: ""
 
 ### Solution en ligne de commande avec cwebp
 #### Sur Windows
-1. Rendez-vous sur le site officiel du projet WebP (https://developers.google.com/speed/webp/download).
+1. Rendez-vous sur [le site officiel du projet WebP](https://developers.google.com/speed/webp/download).
 2. Téléchargez le fichier "libwebp-xxx-windows-x64.zip" (remplacez "xxx" par la version actuelle).
 3. Extrayez le fichier ZIP dans un dossier de votre choix.
 4. Ajoutez le chemin du dossier extrait à la variable d'environnement "Path" de votre système.
